@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+#header li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+
+#header li img.icon {
+  width: 20px;
+}
+
+#header li a {
+  color: #24292e;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
