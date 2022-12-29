@@ -44,3 +44,39 @@ img {
   max-width: 100%;
   border-style: none;
 }
+
+#mainvisual {
+  margin-bottom: 80px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+#about ul {
+  margin-bottom: 30px;
+}
+
+#about li:first-child {
+  margin-bottom: 30px;
+}
+
+#about p {
+  text-align: justify;
+}
