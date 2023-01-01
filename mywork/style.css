@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+*, :after, :before {
+  background-repeat: no-repeat;
   box-sizing: inherit;
 }
 
@@ -63,6 +67,10 @@ img {
   padding: 0 4%;
 }
 
+section {
+  display: block;
+}
+
 .sec-title {
   font-size: 1.5rem;
   text-align: center;
@@ -79,4 +87,36 @@ img {
 
 #about p {
   text-align: justify;
+}
+
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+#news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+
+#news dt {
+  width: 10%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+
 }
