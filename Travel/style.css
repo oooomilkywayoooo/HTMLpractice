@@ -141,3 +141,23 @@ main li {
 main .text {
   padding: 10px 40px 30px 40px;
 }
+
+#sidebar {
+  width: 33%;
+  padding: 20px;
+}
+
+.author {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ranking {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.archive {
+  text-align: center;
+  margin-bottom: 60px;
+}
