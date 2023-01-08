@@ -267,3 +267,15 @@ main .text {
   text-align: center;
   padding: 10px 0;
 }
+
+@media screen and (max-width: 767px){
+  #pickup {
+    flex-direction: column;
+    padding-top: 140px;
+  }
+
+  #pickup article {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
