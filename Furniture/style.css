@@ -1,15 +1,13 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-*, :after, :before {
+*,
+*::after,
+*::before {
   background-repeat: no-repeat;
   box-sizing: inherit;
-}
-
-body {
-  margin: 0;
 }
 
 .wrapper {
@@ -21,6 +19,7 @@ body {
 #header {
   width: 100%;
   height: 80px;
+  margin-top: 0;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -37,9 +36,12 @@ a {
   transition: all 0.5s;
 }
 
+a:hover {
+  color: gray;
+}
+
 img {
   max-width: 100%;
-  padding-left: 40px;
 }
 
 li {
@@ -50,6 +52,10 @@ li {
   width: 180px;
   line-height: 1px;
   display: block;
+}
+
+.site-title img {
+  padding-left: 40px;
 }
 
 #navi {
@@ -132,4 +138,35 @@ li {
 #mask {
   display: none;
   transition: all 0.5s;
+}
+
+#top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.product-list li {
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.product-list img {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+.product-list p {
+  font-size: 0.75rem;
+}
+
+.link-text {
+  display: block;
+  text-align: center;
 }
