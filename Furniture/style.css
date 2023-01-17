@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 *,
@@ -169,4 +170,52 @@ li {
 .link-text {
   display: block;
   text-align: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+#footer .menu {
+  display: flex;
+}
+
+#footer .menu li {
+  font-size: 0.75rem;
+  margin-right: 30px;
+}
+
+.fa-brands {
+  font-size: 20px;
+}
+
+#footer .copyright {
+  font-size: 0.625rem;
+  line-height: 34px;
+}
+
+.content {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.page-title {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  padding: 0 20px;
 }
