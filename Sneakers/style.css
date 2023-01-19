@@ -154,3 +154,28 @@ li {
   z-index: 10;
   cursor: pointer;
 }
+
+#main {
+  padding-top: 80px;
+}
+
+#bg-video {
+  width: 100%;
+}
+
+#pickup {
+  width: 100%;
+  padding: 100px 0 50px 0;
+}
+
+#feature {
+  max-width: 1240px;
+  padding: 100px 16px 50px 16px;
+  margin: -50px auto 10px auto;
+}
+
+#contact {
+  color: #fff;
+  background-color: #121212;
+  padding: 50px 0;
+}
