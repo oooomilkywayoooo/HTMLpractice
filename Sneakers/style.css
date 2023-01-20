@@ -179,3 +179,9 @@ li {
   background-color: #121212;
   padding: 50px 0;
 }
+
+.sec-title {
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
