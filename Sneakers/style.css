@@ -185,3 +185,7 @@ li {
   margin-bottom: 30px;
   text-align: center;
 }
+
+#pickup .slick-area {
+  font-size: 0;
+}
