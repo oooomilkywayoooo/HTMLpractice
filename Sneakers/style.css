@@ -305,3 +305,43 @@ img {
   font-size: 0.75rem;
   text-align: right;
 }
+
+#contact .content {
+  max-width: 1240px;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .contact-info, #contact .contact-form {
+  width: 45%;
+}
+
+#contact .contact-info p {
+  margin-bottom: 30px;
+}
+
+#contact .contact-form input, #contact .contact-form textarea {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#contact .contact-form .button input {
+  width: 200px;
+  color: #fff;
+  background-color: #121212;
+  border: solid 1px #fff;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+#footer {
+  color: #fff;
+  background-color: #121212;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.75rem;
+}
