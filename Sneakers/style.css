@@ -329,6 +329,12 @@ img {
   margin-bottom: 20px;
 }
 
+#contact .contact-form input, #contact .contact-form textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 #contact .contact-form .button input {
   width: 200px;
   color: #fff;
@@ -376,12 +382,6 @@ img {
 
   #contact .contact-info, #contact .contact-form {
     width: 100%;
-  }
-
-  #contact .contact-form input, #contact .contact-form textarea {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
 
   #contact .contact-form .button input {
